@@ -37,7 +37,7 @@ const PageContents: React.FC = () => {
   return (
     <div className="container mt-4">
       <h1>{content?.title}</h1>
-      {content?.content}
+      <p>{content?.content}</p>
     </div>
   );
 };

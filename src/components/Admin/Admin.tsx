@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { savePage, getAllPages, getPage } from '../../axiosAPI';
-import PageForm from '../PageForm/PageForm.tsx';
+import PageForm from '../PageForm/PageForm';
 
 const Admin: React.FC = () => {
   const navigate = useNavigate();
